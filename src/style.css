@@ -1,0 +1,116 @@
+body {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#title {
+    font-size: 60px;
+    margin: -10;
+    font-family: Arial, sans-serif;
+}
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#display {
+    font-size: 5em;
+    padding: 25px;
+    background: #8c8c8c; 
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    border-radius: 35px;
+    margin: 40px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    min-width: 100px;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+#start {
+    background-color: #b5b3b3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 10px;
+    min-width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#start:hover {
+    background-color: #8c8c8c;
+}
+#stop {
+    background-color: #b5b3b3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 10px;
+    min-width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#stop:hover {
+    background-color: #8c8c8c;
+}
+#reset {
+    background-color: #b5b3b3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 10px;
+    min-width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#reset:hover {
+    background-color: #8c8c8c;
+}
+#lap {
+    background-color: #b5b3b3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 10px;
+    min-width: 150px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#lap:hover {
+    background-color: #8c8c8c;
+}
+#laps {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+}
